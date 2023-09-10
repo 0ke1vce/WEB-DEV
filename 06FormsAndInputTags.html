@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms And Input Tags </title>
+</head>
+<body>
+    <H2>This is Forms and Input Tag tutorial</H2>
+    <form action="backend.php">   <!--Backend.php m yeh form ko submit kar do-->
+    <label for="name">Name</label>
+       
+     <!-- div tag is use to make division between two inline element -->   
+     <div>
+           <input type="text" id="name">
+     </div> 
+
+     <div>
+        Role:   <input type="text">
+       </div>
+
+       <div>
+        <!-- name vo h jo backend esse pehechanega -->
+        Email: <input type="email" name="backend.php" id="myEmail">
+       </div>
+
+       
+
+       <!-- To input a date-->
+       <!-- name vo h jo backend esse pehechanega -->
+       <div>
+        <input type="date" name="" id="">
+       </div>
+       
+       <div> 
+           Number: <input type="number">
+       </div> 
+
+        <!-- To make a checkbox -->
+        <div>
+            Are you Eligible: <input type="checkbox" name="" id="CheckboX">
+        </div>
+
+        <!-- to make a option button -->
+        <div>
+            Gender: Male <input type="radio" name="" id="myGender">
+            FeMale <input type="radio" name="" id="myGender">
+        </div>
+
+        <div>
+            Write About Yourself: <br><textarea name="" id="" cols="10" rows="10"></textarea>
+        </div>
+
+<div>
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+        <option value="ind" selected>Indica</option>   <!--To choose this as default we can use selected method-->
+        <option value="swf">Swift</option>
+    </select>
+</div>
+
+
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <!-- to reset our form -->
+            <input type="reset" value="Reset now">
+           </div>
+
+   
+
+    </form>
+</body>
+</html>
