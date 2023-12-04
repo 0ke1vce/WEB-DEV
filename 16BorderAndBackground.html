@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hieght,Width Border and Background</title>
+
+    <style>
+#FirstPara{background-color: cyan;
+        height: 100px;  /*CHange hieght from 100px*/
+        width: 150px /*Changing width from 150px*/ ;
+        
+       /*To merge two three properties at once we can use */
+        /* border-width: 4px;
+        border-color: green;
+        border-style: solid; 
+        */
+        border: 2px solid green;
+        border-radius: 15px;  }
+ 
+    #SecondPara{
+        background-color: cyan;
+        height: 100px;  /*CHange hieght from 100px*/
+        width: 150px /*Changing width from 150px*/ ;
+        border-top: 2px solid rgb(255, 0, 0);
+        border-bottom: 4px solid orange;
+        border-left: 12px solid greenyellow;
+        border-right: 20px solid yellow;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 16px;
+    }    
+
+    #ThirdPara{
+        
+        color: orange ;
+        border: 2px solid rebeccapurple;
+        height:480px;
+        width:720px;
+        background-image: url('https://images.hdqwalls.com/download/dragon-ball-son-goku-4k-bl-1280x720.jpg');
+        background-repeat: no-repeat; /*
+        repeat-x and repeat-y will make it repeat in x and y axis only
+        */
+
+        /*  */
+        /* background-position: center top;  */
+        /* background-position: center bottom;  */
+        /* background-position: center left;  */
+        background-position: center center; 
+        /*background-position: x_axis y_axis;*/
+    }
+    </style>
+
+</head>
+<body>
+    <h3>This is Heading</h3>
+    <p id="FirstPara">This is a Paragraph</p>
+
+    <h3>This is Second Heading</h3>
+    <p id="SecondPara">This is Second Para</p>
+
+    <h3>This is Third Paragraph</h3>
+    <p id="ThirdPara">This is Third Paragraph</p>
+</body>
+</html>

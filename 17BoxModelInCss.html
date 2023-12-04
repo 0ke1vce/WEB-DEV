@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model In Css</title>
+    <style>
+
+
+body{
+    background-color: aquamarine;
+}
+
+.container{background-color: peachpuff;
+    border: 2px solid red;
+    /*margin from all side 23px*/
+            /*margin: 23px;*/  
+
+    /*Set margin from 23px from top*/
+           /* margin-top:23px ;   */    
+           
+    /*how to set margin from all side as you want */
+    margin:14px 40px;      
+    
+    padding: 30px 40px;
+    /*
+    padding: top bottom left right;
+    */
+
+    /*
+    padding: top/bottom left/right;
+    */
+
+    border: 32px 12px 10px 2px;
+    border-radius: 32px;
+    width: 800px;
+    height: 200px;
+    box-sizing: border-box;
+     
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my container</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis commodi nam minus vitae, dolor quasi ad est molestiae velit! Asperiores expedita exercitationem natus!</p>
+    </div>
+    <!-- Margin>Border>Padding>Element --> 
+    <!-- Check Box model in inspect menu  -->
+    <div class="container">
+        <h3>This is my container</h3>
+        <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente vel doloremque placeat nostrum mollitia nisi quam ipsam saepe animi, pariatur tempore, sunt a, aliquid rem similique sequi libero! Vitae, nihil.</p>
+    </div>
+</body>
+</html>

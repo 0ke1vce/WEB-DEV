@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float And Clear In Css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+    body{
+        font-family: 'Oswald', sans-serif;
+        }
+        /* For sub item use start  */
+*{
+    box-sizing: border-box;
+}  
+
+            .container{
+             border: 3px solid purple;
+            margin: auto;
+        width: 900px;
+    }
+
+            .item{
+                border: 2px solid black;
+                margin: 12px;
+                padding: 12px,3px;
+                background: rgb(248, 99, 99);
+            }
+
+            #fruits{
+                float: left;
+                width: 48%;
+            }
+
+            #computer{
+                float: right;
+                width: 48%;
+            }
+
+            #stationary{
+                float: left;
+                width: 100%;
+                clear: left;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="fruits" class="item">
+            <h3>This is my Fruits para</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nisi a magnam, mollitia maiores, similique quaerat reprehenderit distinctio facere veniam voluptate corrupti? Porro, cumque? Cupiditate accusantium praesentium magni ad officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel quasi, obcaecati perspiciatis, non dolores, quia ipsam voluptatum saepe et quas! Libero officiis illum praesentium sunt temporibus blanditiis tenetur distinctio iusto delectus excepturi! Repellat!</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>This is my computer para</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia harum atque itaque, fugiat ea veritatis esse, mollitia voluptatem nobis obcaecati consectetur accusantium adipisci amet fuga doloremque facilis molestias quod blanditiis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam sit tempora nesciunt, maiores, minima corrupti esse culpa at earum qui quos! Voluptatibus similique perferendis repellendus aperiam et reprehenderit at dolore voluptate doloremque sequi!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>This is staionary para</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, dicta quisquam! Dolore adipisci eligendi nesciunt omnis tenetur perferendis nobis fuga iusto libero provident ea, tempore labore maxime cumque aliquid quos.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
